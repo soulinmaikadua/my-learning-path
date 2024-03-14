@@ -17,7 +17,7 @@ const posts = (await getCollection('learning')).sort(
 	</head>
 	<body class="bg-black text-white">
 		<Header />
-		<main class="max-w-6xl mx-auto px-4">
+		<main class="max-w-6xl mx-auto px-4 py-3">
 			<section class="grid grid-cols-1 md:grid-cols-3 gap-4">
 					{
 						posts.map((post:any) => (

@@ -51,6 +51,9 @@ a {
 a:hover {
   color: var(--accent);
 }
+.link {
+  color: #76a9fa !important;
+}
 p {
   margin-bottom: 1em;
 }
